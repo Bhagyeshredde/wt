@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title>
+      idk
+    </title>
+  </head>
+  <style>
+    fieldset{
+      margin-bottom: 20px;
+    }
+    div{
+      margin-bottom: 10px;
+    }
+    h1{
+      text-align: center;
+    }
+    .bla{
+      display: inline-block;
+      width: 150px;
+      text-align: right;
+    }
+    input{
+      width: 100px;
+    }
+    form{
+      width: 33%;
+      margin-left: 33%;
+    }
+  </style>
+  <body>
+    <fieldset>
+    <form action="">
+    <fieldset>
+      <h1>User Details</h1>
+      <div>
+      <label class="bla" for="fname">First Name :</label>
+      <input type="text" name="FirstName" id="fname" required><br>
+    </div>
+    <div>
+      <label class="bla" for="lname">Last Name :</label>
+      <input type="text" name="Lastname" id="lname"><br>
+    </div>
+    <div>
+      <label class="bla" for="email">Email :</label>
+      <input type="email" name="mail" id="email" required><br>
+    </div>
+    <div>
+      <label for="phone" class="bla">Phone no :</label>
+      <input type="number" name="Number" id="phone" required><br>
+    </div>
+    </fieldset>
+    <fieldset>
+      <h1>Personal Details</h1>
+      <div>
+      <label for="al1" class="bla">Address :</label>
+      <input type="text" name="Address line 1" id="al1" required><br>
+      <label for="" class="bla"></label>
+      <input type="text" name="Address Line 2" id="al2" ><br>
+      
+           <dd style="margin-left: 150px;">*include your email and pincode</dd> 
+      </div>
+      <div>
+      <label for="aadhar" class="bla">Aadhar number :</label>
+      <input type="number" name="Aadhar" id="aadhar" required minlength="12" maxlength="12"><br>
+    </div>
+    <div>
+      <label for="pan" class="bla">PAN card number :</label>
+      <input type="number" name="PAN" id="pan" required><br>
+    </div>
+    </fieldset> 
+    
+    <fieldset>
+      <h1>Educational Details</h1>
+      <div>
+        <label for="qualification">Qualification :</label><br>
+        <input type="radio" name="qualification" id="tenth">
+        <label for="tenth">10th</label><br>
+        <input type="radio" name="qualification" id="inter">
+        <label for="inter">Inermediate</label><br>
+        <input type="radio" name="qualification" id="ug">
+        <label for="ug">Under Graduate</label><br>
+        <input type="radio" name="qualification" id="pg">
+        <label for="pg">Post Graduate</label><br>
+
+      </div>
+      <div>
+        Technologies known:
+        <br>
+        <input type="checkbox" name="tech" id="c">
+        <label for="c">C</label><br>
+        <input type="checkbox" name="tech" id="java">
+        <label for="java">Java</label><br>
+        <input type="checkbox" name="tech" id="py">
+        <label for="py">Python</label><br>
+        <input type="checkbox" name="tech" id="wt">
+        <label for="wt">html,css,js</label><br>
+      </div>
+      <div>
+        Certifications: <br>
+        <input type="file" style="width: auto; ">
+      </div>
+    </fieldset>
+    <input type="submit">
+    
+  </form>
+  </fieldset>
+  </body>
+</html>
